@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <rel></rel>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <button class="button1">
+        <p>Infrastruktur</p>
+          <script>
+  $(function() {
+    // run the currently selected effect
+    function runEffect() {
+      // get effect type from
+      var selectedEffect = $( "#effectTypes" ).val();
+
+      // most effect types need no options passed by default
+      var options = {};
+      // some effects have required parameters
+      if ( selectedEffect === "scale" ) {
+        options = { percent: 0 };
+      } else if ( selectedEffect === "size" ) {
+        options = { to: { width: 200, height: 60 } };
+      }
+
+      // run the effect
+      $( "#effect" ).toggle( selectedEffect, options, 500 );
+    };
+
+    // set effect from select menu value
+    $( "#button" ).click(function() {
+      runEffect();
+    });
+  });
+  </script>
+    </button>
+    <button class="button2">
+        <p>Router</p>
+          <script>
+  $(function() {
+    // run the currently selected effect
+    function runEffect() {
+      // get effect type from
+      var selectedEffect = $( "#effectTypes" ).val();
+
+      // most effect types need no options passed by default
+      var options = {};
+      // some effects have required parameters
+      if ( selectedEffect === "scale" ) {
+        options = { percent: 0 };
+      } else if ( selectedEffect === "size" ) {
+        options = { to: { width: 200, height: 60 } };
+      }
+
+      // run the effect
+      $( "#effect" ).toggle( selectedEffect, options, 500 );
+    };
+
+    // set effect from select menu value
+    $( "#button" ).click(function() {
+      runEffect();
+    });
+  });
+  </script>
+    </button>
+    <button class="button3">
+        <p>Switch</p>
+          <script>
+  $(function() {
+    // run the currently selected effect
+    function runEffect() {
+      // get effect type from
+      var selectedEffect = $( "#effectTypes" ).val();
+
+      // most effect types need no options passed by default
+      var options = {};
+      // some effects have required parameters
+      if ( selectedEffect === "scale" ) {
+        options = { percent: 0 };
+      } else if ( selectedEffect === "size" ) {
+        options = { to: { width: 200, height: 60 } };
+      }
+
+      // run the effect
+      $( "#effect" ).toggle( selectedEffect, options, 500 );
+    };
+
+    // set effect from select menu value
+    $( "#button" ).click(function() {
+      runEffect();
+    });
+  });
+  </script>
+    </button>
+</body>
+</html>
+
+
+
+https://jqueryui.com/toggle/
