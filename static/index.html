@@ -6,97 +6,50 @@
     <meta charset="UTF-8">
     <title></title>
 </head>
-<body>
-    <button class="button1">
-        <p>Infrastruktur</p>
-          <script>
-  $(function() {
-    // run the currently selected effect
-    function runEffect() {
-      // get effect type from
-      var selectedEffect = $( "#effectTypes" ).val();
-
-      // most effect types need no options passed by default
-      var options = {};
-      // some effects have required parameters
-      if ( selectedEffect === "scale" ) {
-        options = { percent: 0 };
-      } else if ( selectedEffect === "size" ) {
-        options = { to: { width: 200, height: 60 } };
-      }
-
-      // run the effect
-      $( "#effect" ).toggle( selectedEffect, options, 500 );
-    };
-
-    // set effect from select menu value
-    $( "#button" ).click(function() {
-      runEffect();
-    });
-  });
-  </script>
-    </button>
-    <button class="button2">
-        <p>Router</p>
-          <script>
-  $(function() {
-    // run the currently selected effect
-    function runEffect() {
-      // get effect type from
-      var selectedEffect = $( "#effectTypes" ).val();
-
-      // most effect types need no options passed by default
-      var options = {};
-      // some effects have required parameters
-      if ( selectedEffect === "scale" ) {
-        options = { percent: 0 };
-      } else if ( selectedEffect === "size" ) {
-        options = { to: { width: 200, height: 60 } };
-      }
-
-      // run the effect
-      $( "#effect" ).toggle( selectedEffect, options, 500 );
-    };
-
-    // set effect from select menu value
-    $( "#button" ).click(function() {
-      runEffect();
-    });
-  });
-  </script>
-    </button>
-    <button class="button3">
-        <p>Switch</p>
-          <script>
-  $(function() {
-    // run the currently selected effect
-    function runEffect() {
-      // get effect type from
-      var selectedEffect = $( "#effectTypes" ).val();
-
-      // most effect types need no options passed by default
-      var options = {};
-      // some effects have required parameters
-      if ( selectedEffect === "scale" ) {
-        options = { percent: 0 };
-      } else if ( selectedEffect === "size" ) {
-        options = { to: { width: 200, height: 60 } };
-      }
-
-      // run the effect
-      $( "#effect" ).toggle( selectedEffect, options, 500 );
-    };
-
-    // set effect from select menu value
-    $( "#button" ).click(function() {
-      runEffect();
-    });
-  });
-  </script>
-    </button>
-</body>
+    <body>
+        <input type="button" name="Infrastruktur" value="infrastruktur" id="select1" onclick="colorchange('select1')" class="classA" />
+        <br> <br>
+        <input type="button" name="Router" value="router" id="select2" onclick="colorchange('select2')" class="classA" />
+        <br> <br>
+        <input type="button" name="Switch" value="switch" id="select3" onclick="colorchange('select3')" class="classA" />
+        <br> <br>
+        <input type='button' value='Reset' name='reset' id="select4" onclick="reset('select');">
+    </body>
 </html>
+<script>
+        function colorchange(id)
+    {
+      var el = document.getElementById(id);
+      var currentClass = el.getAttribute("class");
+      if(currentClass == 'classA')
+      {
+          el.setAttribute("class", "classB");
+            if (value==infrastruktur);
+          {
+
+          }
+          else if();
+          else if();
+      } else {
+         el.setAttribute("class", "classA");
+
+      }
+
+
+    }
+function reset(id)
+    {
+        for (i=1;i<=3;i++)
+        {
+            var el = document.getElementById("select"+i);
+        var currentClass = el.getAttribute("class");
+        el.setAttribute("class", "classA")
+        }
 
 
 
-https://jqueryui.com/toggle/
+    }
+
+
+
+</script>

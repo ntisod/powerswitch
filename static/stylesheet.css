@@ -13,8 +13,7 @@ ul{
 p{
 
 }
-.button1{
-    background-color: #4CAF50; /* Green */
+#select1{
     border: none;
     color: white;
     padding: 15px 32px;
@@ -22,9 +21,9 @@ p{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 8px;
 }
-.button2{
-    background-color: #4CAF50; /* Green */
+#select2{
     border: none;
     color: white;
     padding: 15px 32px;
@@ -32,9 +31,9 @@ p{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 8px;
 }
-.button3{
-    background-color: #4CAF50; /* Green */
+#select3{
     border: none;
     color: white;
     padding: 15px 32px;
@@ -42,4 +41,33 @@ p{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 8px;
+}
+#select4{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.classA {
+    background:rgb(0,255,0);
+}
+
+.classB {
+   background:rgb(255,0,0);
+}
+input{
+    align-content: center;
+    align-self: center;
+}
+.classC{
+   background:rgb(255,255,0);
+}
+input{
+
 }
